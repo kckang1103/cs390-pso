@@ -12,15 +12,18 @@
         p {
             text-align: center;
         }
-        img {
+        img-container {
           align-content: left;
+          display: block;
         }
     </style>
 </head>
 <body>
-    <h1>Harry Potter</h1>
+    <h1 id="heading">Harry Potter</h1>
     <p>Summary of the movie</p>
-    <img src="https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" width="500" height="600"> </img>
+    <span class="image-container">
+      <img src="https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" width="500" height="600"> </img>
+    </span>
     <script src="script.js"></script>
 </body>
 </html>
